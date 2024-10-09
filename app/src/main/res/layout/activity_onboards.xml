@@ -19,8 +19,8 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <View
-        android:id="@+id/oops"
+    <ImageView
+        android:id="@+id/custim"
         android:layout_width="411dp"
         android:layout_height="443dp"
         android:layout_alignParentStart="true"
