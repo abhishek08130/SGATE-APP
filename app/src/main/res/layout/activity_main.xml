@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_com"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="451dp"
+        android:layout_height="988dp"
+        android:background="@drawable/ellipse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/_397sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_257sdp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/screenshot_" />
+
+    <TextView
+        android:id="@+id/s_gate"
+        android:layout_width="@dimen/_393sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_450sdp"
+        android:fontFamily="@font/black_ops_one"
+        android:gravity="center_horizontal|top"
+        android:text="@string/s_gate"
+        android:textAppearance="@style/s_gate" />
+
+    <TextView
+        android:id="@+id/security_at"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_81sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="@dimen/_510sdp"
+        android:gravity="top"
+        android:text="@string/security_at"
+        android:textAlignment="center"
+        android:textAppearance="@style/security_at"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>
+

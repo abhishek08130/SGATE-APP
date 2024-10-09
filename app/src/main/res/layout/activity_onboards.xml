@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_com"
+    tools:context=".onboards">
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="match_parent"
+        android:layout_height="694dp"
+        android:background="@drawable/ellipse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/oops"
+        android:layout_width="411dp"
+        android:layout_height="443dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="127dp"
+        android:background="@drawable/cusr" />
+
+    <TextView
+        android:id="@+id/smalltext"
+        android:layout_width="387dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="612dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="top"
+        android:lineSpacingExtra="50sp"
+        android:text="@string/say_to_reme"
+        android:textAppearance="@style/say_to_reme"
+        android:translationY="-25.19sp" />
+
+    <TextView
+        android:id="@+id/bigtext"
+        android:layout_width="@dimen/_399sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_530sdp"
+        android:fontFamily="@font/holtwood_one_sc"
+        android:gravity="center_horizontal|top"
+        android:text="@string/complex_pas"
+        android:textAppearance="@style/complex_pas"
+        android:textSize="@dimen/_19sdp"
+        android:translationY="-15.97sp" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_230sdp"
+        android:layout_marginTop="@dimen/_590sdp"
+        android:fontFamily="@font/caprasimo"
+        android:gravity="top"
+        android:lineSpacingExtra="51sp"
+        android:text="@string/next"
+        android:textAppearance="@style/next"
+        android:textColor="#9811BA"
+        android:translationY="-25.31sp" />
+</RelativeLayout>

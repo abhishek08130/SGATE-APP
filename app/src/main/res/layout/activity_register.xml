@@ -1,0 +1,297 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@drawable/cr20b100425"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/re62su4aad7p"
+                android:layout_width="251dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginBottom="37dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/register" />
+
+            <TextView
+                android:id="@+id/rkk8l2s5bz4"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:layout_marginBottom="23dp"
+                android:layout_marginStart="40dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CREATE YOUR ACCOUNT"
+                />
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rt9mmrvxn91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/cr30bffffff"
+                android:paddingVertical="19dp"
+                android:paddingHorizontal="18dp"
+                android:layout_marginBottom="13dp"
+                android:layout_marginHorizontal="32dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/r4kz43pui0e"
+                    android:textColor="#4F555A"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Your Name"
+                    />
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/r3is2p7ef822"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cross"
+                    android:paddingHorizontal="5dp"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/riydbdqlii5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/cr30bffffff"
+                android:paddingVertical="18dp"
+                android:paddingHorizontal="19dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginHorizontal="33dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/rvc3fn2brx6"
+                    android:textColor="#4F555A"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Enter Email"
+                    />
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/r1fizs7j5mq5"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cross"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="5dp">
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/r4zfofl68odp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cr30bffffff"
+                android:paddingTop="20dp"
+                android:paddingBottom="2dp"
+                android:paddingHorizontal="21dp"
+                android:layout_marginBottom="21dp"
+                android:layout_marginHorizontal="31dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/rfikss12n4l"
+                    android:textColor="#667085"
+                    android:textSize="26sp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="••••••••"
+                    />
+                <ImageView
+                    android:id="@+id/rrk8avspu76"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/cross"
+                    android:scaleType="fitXY"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re8yatf7lx8l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="@drawable/cr30b4461f2"
+                android:paddingTop="23dp"
+                android:paddingBottom="12dp"
+                android:layout_marginBottom="33dp"
+                android:layout_marginHorizontal="31dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/r9alz84pwpnb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CREATE MY ACCOUNT"
+                    android:textColor="#FFFFFF"
+                    android:textSize="19sp" />
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rhrb6tfkp0yp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="19dp"
+                android:layout_marginHorizontal="31dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/ri8ze246ar6e"
+                    android:layout_width="102dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="13dp"
+                    android:orientation="vertical">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/rrbzhzu5k5er"
+                    android:textColor="#ACADAC"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Or continue with"
+                    />
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/r8tq2bo3hn6x"
+                    android:layout_width="102dp"
+                    android:layout_height="1dp"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rww4u26yf428"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/r2rrt60x3b6y"
+                    android:layout_width="259dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/rpb7lqf8aix"
+                            android:layout_width="397dp"
+                            android:layout_height="221dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ellipse" />
+
+                        <TextView
+                            android:id="@+id/r12fs6ayrj2ul"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="-58dp"
+                            android:layout_marginBottom="61dp"
+                            android:text="HAVE ACCOUNT  LOGIN"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rxr34jtpyee9"
+                        android:layout_width="92dp"
+                        android:layout_height="49dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginEnd="35dp"
+                        android:layout_marginRight="36dp"
+                        android:background="@drawable/facebook"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:elevation="13dp"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="36dp">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r6tse4oy0un5"
+                        android:layout_width="85dp"
+                        android:layout_height="51dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-5dp"
+                        android:background="@drawable/google"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="8dp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:id="@+id/r9uu32g54zol"
+                    android:layout_width="93dp"
+                    android:layout_height="49dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/apples"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="34dp" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

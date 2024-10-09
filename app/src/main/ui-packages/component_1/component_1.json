@@ -1,0 +1,103 @@
+{
+  "name": "component_1",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "dxwFrNuIS4goi7nEVrQKnB",
+    "node": "17:50",
+    "version": "6779986879",
+    "component-id": "1a5ab3147137e9c1e0c647d47cfb8d0d81db5710"
+  },
+  "default": "Component 1",
+  "documentation": "test",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "image",
+        "id": "Screenshot 2024-08-19 215452 1"
+      }
+    ],
+    "modes": {
+      "Component 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Ellipse 1",
+              "Screenshot 2024-08-19 215452 1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Ellipse 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -90.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -281.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "Screenshot 2024-08-19 215452 1",
+            "margin": {
+              "left": 21.0,
+              "top": 33.0,
+              "right": 20.0,
+              "bottom": 19.0
+            },
+            "border-radius": 70.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "stroke-width": 10.0,
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Component 1",
+      "size": {
+        "width": 232.0,
+        "height": 211.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_enter_email_which_is_linked_from_account">Please enter email which is linked from account</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="reset_my_password">RESET MY PASSWORD</string>
+</resources>

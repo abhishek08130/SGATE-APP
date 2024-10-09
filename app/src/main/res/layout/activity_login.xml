@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/android_com"
+        tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rknb08c0491"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/_71sdp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/r3xrod6fvnkw"
+                android:layout_width="216dp"
+                android:layout_height="148dp"
+                android:layout_marginHorizontal="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/istockphoto"
+                app:shapeAppearanceOverlay="@drawable/ellipse" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rsusogghg39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="27dp"
+            android:fontFamily="@font/kavoon"
+            android:text="LOGIN YOUR ACCOUNT"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/rv9hqxbx5df"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="26dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/box"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="17dp">
+
+            <TextView
+                android:id="@+id/rj7p2ou83pjr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:text="Enter Email"
+                android:textColor="#4F555A"
+                android:textSize="18sp" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rdxkcle7qywc"
+                android:layout_width="18dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cross"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="6dp">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rk0iu7zdtac"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="6dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rdrm5v6207cg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/box"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:paddingHorizontal="22dp"
+            android:paddingTop="19dp">
+
+            <TextView
+                android:id="@+id/rf4em2ro4ut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:text="••••••••"
+                android:textColor="#667085"
+                android:textSize="26sp" />
+
+            <ImageView
+                android:id="@+id/rryudhpi3cpq"
+                android:layout_width="17dp"
+                android:layout_height="14dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/eye" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/r20vkt666zul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:layout_marginBottom="15dp"
+            android:text="Recover Password ?"
+            android:textColor="#C7C7C7"
+            android:textSize="14sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/rkyeqhdlodxp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/buttons"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:elevation="21dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="22dp">
+
+            <TextView
+                android:id="@+id/rxsaxilgs83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOG IN"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/rbvcq2p197h8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="26dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rn8xb4upbx0q"
+                android:layout_width="108dp"
+                android:layout_height="1dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/ra5nun3hut6r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Or continue with"
+                android:textColor="#ACADAC"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/r1syfboxcb03"
+                android:layout_width="108dp"
+                android:layout_height="1dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/raqk2lxwva1k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="75dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rbopwrsxwikt"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/google"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="38dp"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/r7792o50v2rh"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/apples"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="13dp"
+                android:orientation="vertical"
+                android:paddingHorizontal="40dp"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/r6zp4fkxov8y"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/facebook"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="36dp">
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+                <TextView
+                    android:id="@+id/rudsx1thobsk"
+                    android:textSize="19sp"
+                    android:layout_marginStart="29dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/new_on_sgate_create_account"
+                    />
+            </LinearLayout>

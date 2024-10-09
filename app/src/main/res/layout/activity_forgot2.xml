@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgot2">
+    <ScrollView
+        android:clipToPadding="false"
+        android:id="@+id/raispp5dzmaw"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/cr30b100425"
+        android:paddingTop="49dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/r2oo4mf9bz1q"
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                android:layout_marginBottom="58dp"
+                android:src="@drawable/forgot2p"
+                android:scaleType="fitXY"
+                />
+
+            <TextView
+                android:id="@+id/rxwpn41ehrf"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="61dp"
+                android:fontFamily="@font/kavoon"
+                android:text="Congratulations Email Sent"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/r9vg2p0042av"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="85dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/kavoon"
+                android:text="The password reset link has been successfully sent to your Email .  Kindly Please Check your Email."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/rw581a973a3r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginBottom="102dp"
+                android:fontFamily="@font/kavoon"
+                android:text="GO BACK TO  LOGIN"
+                android:textColor="#A774E2"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/rgc6ozbpnji"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ellipse" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

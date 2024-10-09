@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SGATE</string>
+    <string name="s_gate">S.GATE</string>
+    <string name="security_at">Security At your Fingertips</string>
+    <string name="login_your_">LOGIN YOUR ACCOUNT</string>
+    <!--Titles-->
+    <string name="say_to_reme">Say 👋 TO REMEMBER</string>
+    <string name="hassle_free">Hassle Free Logins Anywhere Just</string>
+
+    <!--Descriptions-->
+    <string name="complex_pas">COMPLEX PASSWORD</string>
+    <string name="scan_to_go_">SCAN TO GO Features</string>
+
+    <!--Buttons-->
+    <string name="next">Next</string>
+    <string name="try_sgate">TRY SGATE</string>
+    <string name="new_on_sgate_create_account">NEW ON SGATE CREATE ACCOUNT</string>
+    <string name="forgot_password">FORGOT PASSWORD ?</string>
+    <string name="please_enter_email_which_is_linked_from_account">Please enter email which is linked from account</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="reset_my_password">RESET MY PASSWORD</string>
+</resources>

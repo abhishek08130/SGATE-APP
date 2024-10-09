@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="412dp"
+    android:layout_height="917dp"
+    android:background="@drawable/android_com">
+
+    <View
+        android:id="@+id/onboard2img"
+        android:layout_width="364.44dp"
+        android:layout_height="393.48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="169dp"
+        android:background="@drawable/d_woman_sca"/>
+
+    <TextView
+        android:id="@+id/hassle_free"
+        android:layout_width="448dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="648dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="top"
+        android:lineSpacingExtra="58sp"
+        android:text="@string/hassle_free"
+        android:textAppearance="@style/hassle_free"
+        android:translationY="-28.82sp" />
+
+    <TextView
+        android:id="@+id/scan_to_go_"
+        android:layout_width="440dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-11dp"
+        android:layout_marginTop="685dp"
+        android:fontFamily="@font/holtwood_one_sc"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="38sp"
+        android:text="@string/scan_to_go_"
+        android:textAppearance="@style/scan_to_go_"
+        android:translationY="-18.97sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="133dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="110dp"
+        app:srcCompat="@drawable/buttons" />
+
+
+</RelativeLayout>
