@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_com"
+    tools:context=".onboard2">
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="match_parent"
+        android:layout_height="694dp"
+        android:background="@drawable/ellipse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/custims"
+        android:layout_width="411dp"
+        android:layout_height="443dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/d_woman_sca" />
+
+    <TextView
+        android:id="@+id/smalltexts"
+        android:layout_width="393dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="612dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="top"
+        android:lineSpacingExtra="50sp"
+        android:text="@string/hassle_free"
+        android:textAppearance="@style/say_to_reme"
+        android:translationY="-25.19sp" />
+
+    <TextView
+        android:id="@+id/bigtexts"
+        android:layout_width="@dimen/_399sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="620dp"
+        android:fontFamily="@font/holtwood_one_sc"
+        android:gravity="center_horizontal|top"
+        android:text="@string/scan_to_go_"
+        android:textAppearance="@style/scan_to_go_"
+        android:textSize="@dimen/_18sdp"
+        android:translationY="-15.97sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/sffffffsw4cr30b4155b6"
+        android:text="@string/try_sgate" />
+
+</RelativeLayout>
