@@ -49,9 +49,7 @@
             android:textColor="#FFFFFF"
             android:textSize="30sp" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <LinearLayout
             android:id="@+id/rv9hqxbx5df"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,6 +96,7 @@
                     android:clipToPadding="false"
                     android:orientation="vertical"></LinearLayout>
             </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
