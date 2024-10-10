@@ -61,17 +61,16 @@
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingHorizontal="20dp"
-            android:paddingVertical="17dp">
+            android:paddingVertical="1dp">
 
-            <TextView
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/rj7p2ou83pjr"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                android:text="Enter Email"
                 android:textColor="#4F555A"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -85,16 +84,16 @@
                 android:orientation="vertical"
                 android:paddingHorizontal="6dp">
 
-                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
-                    xmlns:tools="http://schemas.android.com/tools"
+                <LinearLayout
                     android:id="@+id/rk0iu7zdtac"
                     android:layout_width="match_parent"
                     android:layout_height="4dp"
                     android:layout_marginTop="6dp"
                     android:clipChildren="false"
                     android:clipToPadding="false"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
@@ -110,25 +109,27 @@
             android:clipToPadding="false"
             android:orientation="horizontal"
             android:paddingHorizontal="22dp"
-            android:paddingTop="19dp">
+            android:paddingTop="1dp">
 
-            <TextView
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/rf4em2ro4ut"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="32dp"
                 android:layout_marginTop="7dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                android:text="••••••••"
                 android:textColor="#667085"
-                android:textSize="26sp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/rryudhpi3cpq"
-                android:layout_width="17dp"
-                android:layout_height="14dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/eye" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eye"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="6dp" />
         </LinearLayout>
 
         <TextView
@@ -166,9 +167,7 @@
                 android:textSize="19sp" />
         </LinearLayout>
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <LinearLayout
             android:id="@+id/rbvcq2p197h8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -179,15 +178,15 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
+            <LinearLayout
                 android:id="@+id/rn8xb4upbx0q"
                 android:layout_width="108dp"
                 android:layout_height="1dp"
                 android:clipChildren="false"
                 android:clipToPadding="false"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <View
                 android:layout_width="0dp"
