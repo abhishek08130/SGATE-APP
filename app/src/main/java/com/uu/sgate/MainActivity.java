@@ -28,14 +28,30 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        // Get SharedPreferences
+        SharedPreferences sharedPreferences = getSharedPreferences("MyAppPrefs", MODE_PRIVATE);
+        boolean isFirstRun = sharedPreferences.getBoolean("isFirstRun", true);
 
-        new Handler() .postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent =new Intent(MainActivity.this,register.class);
-                startActivity(intent);
-                finish();
+                if (isFirstRun) {
+                    // If first run, redirect to OnboardingActivity (onboards.java)
+                    Intent intent = new Intent(MainActivity.this,onboards.class);
+                    startActivity(intent);
+                    finish();
+
+                    // Mark first run as false
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putBoolean("isFirstRun", false);
+                    editor.apply();
+                } else {
+                    // Otherwise, redirect to LoginActivity
+                    Intent intent = new Intent(MainActivity.this,login.class);
+                    startActivity(intent);
+                    finish();
+                }
             }
-        },SPLASH_SCREEN);
+        }, SPLASH_SCREEN);
     }
 }
