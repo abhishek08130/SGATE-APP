@@ -63,6 +63,7 @@
 >
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emails"
                 android:layout_width="330dp"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/_589271"
@@ -89,21 +90,21 @@
             android:paddingTop="1dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="327dp"
-                android:layout_height="38dp"
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:drawableStart="@drawable/psd"
                 android:hint=" Password"
-                android:inputType="textEmailAddress"
+                android:inputType="textPassword"
                 android:pointerIcon="zoom_in"
                 android:textAlignment="viewStart"
                 android:textColor="#303F9F"
-                android:textSize="14sp"
+                android:textSize="15sp"
                 android:textStyle="bold" />
-
-        </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/r20vkt666zul"
+            android:id="@+id/forgot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="11dp"
@@ -112,10 +113,8 @@
             android:textColor="#C7C7C7"
             android:textSize="14sp" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/rkyeqhdlodxp"
+        <LinearLayout
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="24dp"
@@ -176,20 +175,18 @@
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
+            <LinearLayout
                 android:id="@+id/r1syfboxcb03"
                 android:layout_width="108dp"
                 android:layout_height="1dp"
                 android:clipChildren="false"
                 android:clipToPadding="false"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
         </LinearLayout>
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <LinearLayout
             android:id="@+id/raqk2lxwva1k"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -200,27 +197,24 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/rbopwrsxwikt"
+            <LinearLayout
+                android:id="@+id/ggl"
                 android:layout_width="@dimen/_70sdp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/google"
                 android:clipChildren="false"
                 android:clipToPadding="false"
                 android:orientation="vertical"
-                android:paddingHorizontal="38dp"></LinearLayout>
+                android:paddingHorizontal="38dp">
+            </LinearLayout>
 
             <View
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/r7792o50v2rh"
+            <LinearLayout
+                android:id="@+id/Appl"
                 android:layout_width="@dimen/_70sdp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/apples"
@@ -228,17 +222,17 @@
                 android:clipToPadding="false"
                 android:elevation="13dp"
                 android:orientation="vertical"
-                android:paddingHorizontal="40dp"></LinearLayout>
+                android:paddingHorizontal="40dp">
+
+            </LinearLayout>
 
             <View
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/r6zp4fkxov8y"
+            <LinearLayout
+                android:id="@+id/facebook"
                 android:layout_width="@dimen/_70sdp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/facebook"
@@ -250,12 +244,12 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-                <TextView
-                    android:id="@+id/rudsx1thobsk"
-                    android:textSize="19sp"
-                    android:layout_marginStart="29dp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="@string/new_on_sgate_create_account"
-                    />
-            </LinearLayout>
+
+    <TextView
+        android:id="@+id/rudsx1thobsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:text="@string/new_on_sgate_create_account"
+        android:textSize="19sp" />
+</LinearLayout>
