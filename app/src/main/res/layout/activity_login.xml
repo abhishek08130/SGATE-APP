@@ -49,57 +49,33 @@
             android:textColor="#FFFFFF"
             android:textSize="30sp" />
 
-        <LinearLayout
+
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/rv9hqxbx5df"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="26dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/box"
-            android:clipChildren="false"
-            android:clipToPadding="false"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingHorizontal="20dp"
-            android:paddingVertical="17dp">
+>
 
-            <TextView
-                android:id="@+id/rj7p2ou83pjr"
-                android:layout_width="0dp"
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="330dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="4dp"
-                android:layout_weight="1"
-                android:text="Enter Email"
-                android:textColor="#4F555A"
-                android:textSize="18sp" />
+                android:drawableStart="@drawable/_589271"
+                android:hint=" Email"
+                android:inputType="textEmailAddress"
+                android:pointerIcon="zoom_in"
+                android:textAlignment="viewStart"
+                android:textColor="#303F9F"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/rdxkcle7qywc"
-                android:layout_width="18dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/cross"
-                android:clipChildren="false"
-                android:clipToPadding="false"
-                android:orientation="vertical"
-                android:paddingHorizontal="6dp">
-
-                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
-                    xmlns:tools="http://schemas.android.com/tools"
-                    android:id="@+id/rk0iu7zdtac"
-                    android:layout_width="match_parent"
-                    android:layout_height="4dp"
-                    android:layout_marginTop="6dp"
-                    android:clipChildren="false"
-                    android:clipToPadding="false"
-                    android:orientation="vertical"></LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/rdrm5v6207cg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -110,26 +86,21 @@
             android:clipToPadding="false"
             android:orientation="horizontal"
             android:paddingHorizontal="22dp"
-            android:paddingTop="19dp">
+            android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/rf4em2ro4ut"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:layout_marginEnd="4dp"
-                android:layout_weight="1"
-                android:text="••••••••"
-                android:textColor="#667085"
-                android:textSize="26sp" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="327dp"
+                android:layout_height="38dp"
+                android:drawableStart="@drawable/psd"
+                android:hint=" Password"
+                android:inputType="textEmailAddress"
+                android:pointerIcon="zoom_in"
+                android:textAlignment="viewStart"
+                android:textColor="#303F9F"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/rryudhpi3cpq"
-                android:layout_width="17dp"
-                android:layout_height="14dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/eye" />
-        </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:id="@+id/r20vkt666zul"
@@ -166,9 +137,7 @@
                 android:textSize="19sp" />
         </LinearLayout>
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <LinearLayout
             android:id="@+id/rbvcq2p197h8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -179,15 +148,15 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
+            <LinearLayout
                 android:id="@+id/rn8xb4upbx0q"
                 android:layout_width="108dp"
                 android:layout_height="1dp"
                 android:clipChildren="false"
                 android:clipToPadding="false"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <View
                 android:layout_width="0dp"
