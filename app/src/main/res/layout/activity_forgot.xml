@@ -48,85 +48,56 @@
                 android:layout_marginStart="11dp"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="@string/please_enter_email_which_is_linked_from_account"
-                />
+                android:text="@string/please_enter_email_which_is_linked_from_account" />
 
-            <LinearLayout
-                android:id="@+id/r3rykhdgryfd"
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/rv9hqxbx5df"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/box"
                 android:gravity="center_vertical"
-                android:background="@drawable/cr30bffffff"
-                android:paddingVertical="22dp"
-                android:paddingHorizontal="21dp"
-                android:layout_marginBottom="100dp"
-                android:layout_marginHorizontal="4dp"
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/rcoekxgow2wq"
-                    android:textColor="#4F555A"
-                    android:textSize="18sp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:text="@string/enter_email"
-                    />
-                <LinearLayout
-                    android:id="@+id/rnksoovqnosn"
-                    android:layout_width="18dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/cross"
-                    android:paddingHorizontal="7dp"
-                    android:orientation="vertical">
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                >
 
-                </LinearLayout>
-            </LinearLayout>
-            <RelativeLayout
-                android:id="@+id/r8ir261hqh55"
-                android:layout_width="259dp"
-                android:layout_height="221dp"
-                android:layout_marginHorizontal="12dp"
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fgteml"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/_589271"
+                    android:hint=" Email"
+                    android:inputType="textEmailAddress"
+                    android:pointerIcon="zoom_in"
+                    android:textAlignment="viewStart"
+                    android:textColor="#303F9F"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/buttons"
                 android:clipChildren="false"
                 android:clipToPadding="false"
-                >
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:clipChildren="false"
-                    android:clipToPadding="false"
-                    android:orientation="vertical">
+                android:elevation="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingVertical="22dp">
 
-                    <ImageView
-                        android:id="@+id/rgtia8hb58gk"
-                        android:layout_width="398dp"
-                        android:layout_height="221dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/ellipse"
-                        tools:ignore="ContentDescription" />
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/r2jd9tbkdkxx"
-                    android:layout_marginTop="-58dp"
-                    android:layout_marginStart="2dp"
-                    android:layout_width="900dp"
-                    android:layout_height="63dp"
-                    android:background="@drawable/cr30b4461f2"
-                    android:paddingHorizontal="9dp"
-                    android:elevation="30dp"
-                    android:clipChildren="false"
-                    android:clipToPadding="false"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/rp4ftm2hzob"
-                        android:textColor="#FFFFFF"
-                        android:textSize="19sp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="21dp"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="@string/reset_my_password"/>
-                </LinearLayout>
-            </RelativeLayout>
+                <TextView
+                    android:id="@+id/rxsaxilgs8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password"
+                    android:textColor="#FFFFFF"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
         </LinearLayout>
 </LinearLayout>
