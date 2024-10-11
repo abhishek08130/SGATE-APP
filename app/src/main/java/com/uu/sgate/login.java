@@ -57,12 +57,9 @@ public class login extends AppCompatActivity {
             loginUser();
         });
 
-        fgt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(login.this, forgot.class);
-                startActivity(intent);
-            }
+        fgt.setOnClickListener(view -> {
+            Intent intent = new Intent(login.this,forgot.class);
+            startActivity(intent);
         });
     }
     private void loginUser(){
