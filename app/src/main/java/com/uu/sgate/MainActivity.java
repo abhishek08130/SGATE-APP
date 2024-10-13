@@ -12,10 +12,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    private static int SPLASH_SCREEN = 2000;
+    private static final int SPLASH_SCREEN = 2000;
     //Variable
-
-    private int REQUEST_CODE =11;
+    private final int REQUEST_CODE =11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,4 +53,5 @@ public class MainActivity extends AppCompatActivity {
             }
         }, SPLASH_SCREEN);
     }
+
 }

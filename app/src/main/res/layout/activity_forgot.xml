@@ -1,103 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:clipChildren="false"
     android:clipToPadding="false"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cr30b100425"
+    android:background="@drawable/android_com"
     tools:context=".forgot">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:id="@+id/rknb08c0491"
+            android:layout_width="357dp"
+            android:layout_height="294dp"
+            android:layout_marginBottom="@dimen/_32sdp"
+            android:background="@drawable/forgot1p"
             android:clipChildren="false"
             android:clipToPadding="false"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/fgtpass"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/kavoon"
+            android:text="@string/forgot_password"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/fgt"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/kavoon"
+            android:text="@string/please_enter_email_which_is_linked_from_account"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/rv9hqxbx5df"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="26dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/box"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fgteml"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/_589271"
+                android:hint=" Email"
+                android:inputType="textEmailAddress"
+                android:pointerIcon="zoom_in"
+                android:textAlignment="viewStart"
+                android:textColor="#303F9F"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/fgtbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/buttons"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:elevation="21dp"
+            android:gravity="center_horizontal"
             android:orientation="vertical"
-            tools:ignore="UselessParent">
-
-            <ImageView
-                android:id="@+id/ryedicay7nyj"
-                android:layout_width="273dp"
-                android:layout_height="241dp"
-                android:layout_marginHorizontal="40dp"
-                android:layout_marginBottom="19dp"
-                android:layout_marginTop="15dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/forgot1p"
-                tools:ignore="ContentDescription" />
+            android:paddingVertical="22dp">
 
             <TextView
-                android:id="@+id/rsqe0cinnyvq"
+                android:id="@+id/rxsaxilgs83"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginBottom="10dp"
-                android:fontFamily="@font/kavoon"
-                android:text="@string/forgot_password"
+                android:text="Forgot Password"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
-            <TextView
-                android:id="@+id/r0m46kpfhcgf8"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="@font/kavoon"
-                android:layout_marginBottom="39dp"
-                android:layout_marginStart="11dp"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="@string/please_enter_email_which_is_linked_from_account" />
+                android:textSize="19sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/rv9hqxbx5df"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="26dp"
-                android:layout_marginBottom="25dp"
-                android:background="@drawable/box"
-                android:gravity="center_vertical"
-                android:orientation="horizontal"
-                android:paddingHorizontal="20dp"
-                >
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/fgteml"
-                    android:layout_width="330dp"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/_589271"
-                    android:hint=" Email"
-                    android:inputType="textEmailAddress"
-                    android:pointerIcon="zoom_in"
-                    android:textAlignment="viewStart"
-                    android:textColor="#303F9F"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-            </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:id="@+id/rbvcq2p197h8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="26dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
             <LinearLayout
-                android:id="@+id/buttons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="24dp"
-                android:layout_marginBottom="3dp"
-                android:background="@drawable/buttons"
+                android:id="@+id/rn8xb4upbx0q"
+                android:layout_width="108dp"
+                android:layout_height="1dp"
                 android:clipChildren="false"
                 android:clipToPadding="false"
-                android:elevation="2dp"
-                android:gravity="center_horizontal"
-                android:orientation="vertical"
-                android:paddingVertical="22dp">
+                android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/rxsaxilgs8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Forgot Password"
-                    android:textColor="#FFFFFF"
-                    android:textSize="19sp"
-                    android:textStyle="bold" />
             </LinearLayout>
+
         </LinearLayout>
+
+    </LinearLayout>
+
 </LinearLayout>
